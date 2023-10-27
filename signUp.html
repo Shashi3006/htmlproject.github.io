@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Project-signup form</title>
+</head>
+<body>
+    <div><img src="Logo.jpg" alt="logo"></div>
+    <h2>Sign Up</h2>
+    <form action="index.html">
+        <div><label for="name">Name</label>
+            <input type="text" id="name" placeholder="Username" required></div><br>
+
+        <div><label for="password">Password</label>
+            <input type="password" id="password" placeholder="Password" minlength="4" required></div><br>
+
+        <div><label for="phone">Contact</label>
+            <input type="number" id="phone" placeholder="Contact number" maxlength="10" required></div><br>
+
+        <div><label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Email id" required></div><br>
+
+        <div><label for="dob">Date of Birth</label>
+             <input type="date" id="dob"></div><br>
+        <div>
+            <input type="checkbox" id="check1">
+            <label for="check1">Morning Batch</label>
+        </div>
+        <div>
+            <input type="checkbox" id="check2">
+            <label for="check2">Evening Batch</label>
+        </div><br>
+        <div>
+            <input type="radio" id="check1">
+            <label for="opt1">Daily course</label>
+        </div>
+        <div>
+            <input type="radio" id="check2">
+            <label for="opt2">Weekly</label>
+        </div><br>
+        <div>
+            <label for="resume">Upload Resume</label>
+            <input type="file" id="resume">
+        </div><br>
+        <div>
+            <!-- <audio src="Untitled video - Made with Clipchamp.mp3"></audio> -->
+            <input type="submit" value="SIGN UP">
+            <input type="reset" value="RESET">
+        </div>    
+    </form>
+</body>
+</html>
